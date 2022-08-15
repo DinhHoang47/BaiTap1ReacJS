@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.feature {
+  position: absolute;
+  left: calc(50%);
+  transform: translate(-50%,-50%);
+  top: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  width: 4rem;
+  font-size: 2rem;
+}
+
+.card{
+  position: relative;
+  height: 197px!important;
+
+}
+
+.card-body{
+  margin-top: 65px;
+}
